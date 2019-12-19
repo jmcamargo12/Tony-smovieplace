@@ -1,0 +1,26 @@
+-Do the assignment again from scratch and do it for Tony.
+Use the class instructions. 
+
+1nav creation
+2study box model, remember the four applicatives. 
+3and master float principles
+4positiooning course color excercise (understand it)
+
+Once your done, do another one.
+
+-Tutorials on Git and GIU also Github and git pages.
+
+read about when to use div and sections. 
+layout review. 
+
+Semantic and regular tags study differences and when to use them.
+
+Classes review. Ids. how to choose, when to choose them. 
+
+Class content first
+
+code academy use the resources there "christian"
+
+Use Resources!!
+
+

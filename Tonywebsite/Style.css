@@ -1,0 +1,255 @@
+body {
+  background-color: #000000;
+  background-image: url(/Assets/Images/oie_1823326FA3fB7UG.jpg) opacity: 88%;
+
+  background-repeat: repeat;
+  background-size: 1300px 1080px;
+  border-radius: 12px;
+  width: 960px;
+  margin: 3% auto;
+}
+
+header {
+  margin-left: 0%;
+  width: 960px;
+  height: 45px;
+  background-image: url(https://media3.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif);
+  background-size: 15%;
+  border: double;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* this is introduced to clear the color on the nav after changing the float status*/
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  border-radius: 12px;
+  background-image: url();
+  background-color: black;
+  background-size: contain;
+  margin-top: 35px;
+  width: 175px;
+  height: 20px;
+  font-family: "Tomorrow", sans-serif;
+
+  float: left;
+  padding: 5px 0;
+}
+
+nav {
+  margin-top: 11px;
+  float: right;
+}
+
+nav ul {
+  border-radius: 0%;
+  background-image: url(/Assets/Images/ConcernedWelldocumentedClownanemonefish-small.gif);
+  background-size: 19%;
+  width: 475px;
+  height: 45px;
+  margin-top: 3%;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+}
+
+nav a {
+  color: white;
+  font-family: "Tomorrow", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.flex-container {
+  background-image: url(https://media2.giphy.com/media/xT5LMSEKbFkMIvVokw/200.webp?cid=790b7611612625e2929f231cd37db6b9e46eabe998d74da8&rid=200.webp);
+  
+
+  background-size: 110%;
+  background-color: rgb(22, 20, 20);
+
+  border-color: cornsilk;
+  border-radius: 3%;
+  margin: -4% auto;
+  text-align: left;
+  width: 960px;
+  height: 500px;
+  display: flex;
+  align-items: initial;
+  opacity: 100%;
+}
+
+.flex-container > div {
+  background-position: center;
+
+  border-radius: 12px;
+
+  padding: 1%;
+  width: 75 px;
+  margin: 5px;
+  text-align: justify;
+  line-height: 18px;
+  font-size: 12px;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.tablink {
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+
+  color: rgb(247, 242, 242);
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 15.5%;
+}
+
+h3 {background-color: black;
+  border-radius: 12px;
+  margin-left: 450px;
+  margin-top: 29px;
+}
+
+div img {
+  border-style: double white;
+  margin-top: 5.5%;
+  border-radius: 12%;
+  padding: 10px;
+}
+
+iframe {
+  border-radius: 12px;
+  margin-left: 36%;
+  margin-top: 40px;
+  opacity: 50%;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  margin-left: -2px;
+  width: 500px;
+  height: 150px;
+}
+
+.overlay {
+  background-image: url(/Assets/Images/giphy.gif);
+  position: absolute;
+
+  border-radius: 12%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 235px;
+  width: 525px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  background-image: url(https://media1.tenor.com/images/27c20af3fdf3806d059732caa8699ef0/tenor.gif?itemid=14959875);
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+div.gallery {
+
+}
+
+div.gallery:hover {
+  border-radius: 12px;
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {background-image: url(/Assets/Images/-DobWIgRbcMv7FJUmWeen-Cj1V4m2QWWkZ1VMciK3uA.jpg);
+  margin-top: 300px;
+  border-radius: 12px;
+}
+
+#second {
+  margin-left: 0%;
+  width: 960px;
+  height: 45px;
+  background-image: url(https://media1.tenor.com/images/27c20af3fdf3806d059732caa8699ef0/tenor.gif?itemid=14959875);
+  margin-top: 289px;
+  background-size: 15%;
+  border: double;
+}
+
+.desc {color: white;}
